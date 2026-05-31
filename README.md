@@ -1,50 +1,65 @@
-
 Port Status Checker
+ Project ID
 
-Description
+task2
 
-Port Status Checker is a Python-based networking tool that checks whether a specific port on a given host is open or closed. The program takes a host name and port number as input and attempts to establish a connection using Python's socket module.
+ Description
 
-This project helps users understand basic networking concepts and how ports are used for communication between systems.
+The Port Status Checker is a simple Python-based network tool that checks whether a specific port on a given host system is OPEN or CLOSED.
+
+This project helps in understanding basic network communication, socket programming, and port scanning concepts in cybersecurity and system administration.
 
 Features
 
-- Checks if a port is open or closed
-- Accepts user input for host and port number
-- Uses Python socket programming
-- Simple and easy-to-use interface
+Check if a port is open or closed
+Works with both IP addresses and domain names
+Input validation for port range (1–65535)
+Handles errors like invalid host or input
+Fast response using timeout
+Simple command-line interface
 
 Technologies Used
 
-- Python 3
-- Socket Module
+Python 3.x
+Socket Programming (socket module)
 
-How to Run
+ How to Run
+ 
+1. Install Python
 
-1. Install Python 3 on your system.
-2. Download or clone this repository.
-3. Open a terminal in the project folder.
-4. Run the following command:
+Make sure Python is installed:
 
+python --version
+2. Run the script
 python port_checker.py
 
-5. Enter the host name and port number when prompted.
+Input Example
 
-Example
+Enter host (e.g., 127.0.0.1 or google.com): 127.0.0.1  
+Enter port number: 80
 
-Enter Host: localhost
+ Output Example
+[OPEN] Port 80 is OPEN on 127.0.0.1
 
-Enter Port Number: 80
+or
 
-Port 80 is OPEN
+[CLOSED] Port 8080 is CLOSED on 127.0.0.1
+ Project Structure
+Port-Status-Checker/
+│
+├── port_checker.py
+└── README.md
 
-Learning Outcomes
+Learning Outcomes:
 
-- Understanding network ports
-- Basics of socket programming
-- Checking connectivity between systems
+Understanding TCP/IP ports
+Basics of socket programming in Python
+Error handling and input validation
+Real-world networking concept implementation
 
 Author
 
 Archana
+
+
 <img width="1281" height="760" alt="port_checker" src="https://github.com/user-attachments/assets/685acc8d-45b7-4c55-9f21-fcd85e69ccbd" />
