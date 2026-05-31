@@ -1,16 +1,16 @@
-# 📧 Email Risk Analyzer
+ Email Risk Analyzer
 
-## 📌 Project ID
+ Project ID
 task3
 
 ---
 
-## 📖 Description
+ Description
 Email Risk Analyzer is a Python-based cybersecurity tool that analyzes email content and detects phishing or suspicious emails using keyword detection and URL analysis.
 
 ---
 
-## ⚙️ Features
+ Features
 - Detects phishing/risky keywords
 - Identifies suspicious URLs
 - Calculates risk level (Low / Medium / High)
@@ -19,19 +19,19 @@ Email Risk Analyzer is a Python-based cybersecurity tool that analyzes email con
 
 ---
 
-## 🛠️ Technologies Used
+ Technologies Used
 - Python
 - Regular Expressions (re)
 
 ---
 
-## 🚀 How to Run
+ How to Run
 
 ```bash
 python email_risk_analyzer.py
 
+
 Author
+
 Archana
-
-
 <img width="1281" height="760" alt="port_checker" src="https://github.com/user-attachments/assets/685acc8d-45b7-4c55-9f21-fcd85e69ccbd" />
