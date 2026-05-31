@@ -23,10 +23,7 @@ A simple Python tool that checks whether a specific port on a given host is OPEN
 
 ---
 
-## 🚀 How to Run
 
-```bash
-python port_checker.py
 
 Author
 
