@@ -45,5 +45,5 @@ Learning Outcomes
 - Checking connectivity between systems
 
 Author
-
 Archana
+<img width="1281" height="760" alt="port_checker" src="https://github.com/user-attachments/assets/685acc8d-45b7-4c55-9f21-fcd85e69ccbd" />
